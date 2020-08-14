@@ -1,0 +1,11 @@
+.navbar {
+   color: black;
+   position: absolute;
+   width: 100%;
+   top: 0px;
+   text-align: center;
+   background-image: linear-gradient(to bottom, grey, white)
+}
+.navbar h3:hover {
+   text-decoration: underline;
+}

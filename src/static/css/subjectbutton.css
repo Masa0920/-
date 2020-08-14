@@ -1,0 +1,11 @@
+.subjectbutton {
+   color: black;
+   box-shadow: 15px 15px 20px 0 rgba(0,0,0,0.1);
+   display: inline-block;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 20px;
+}
+.subjectbutton:hover {
+   box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+}

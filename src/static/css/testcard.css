@@ -1,0 +1,10 @@
+.testcard{
+   width: 300px;
+   margin: 70px 20px 0;
+   text-align: center;
+}
+.testimg {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
