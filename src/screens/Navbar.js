@@ -4,11 +4,15 @@ import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
    return (
-      <Link to='/'>
-         <div className="navbar">
-            <h3>ホームへ</h3>
-         </div>
-      </Link>
+      <div className="navbar">
+         <h3>情エレ過去問</h3>
+            <Link to='/'>
+               <div className="home" >
+                  <h3>ホームへ</h3>
+               </div>
+            </Link>
+         <h4>写真大きくなります</h4>
+      </div>
    )
 }
 

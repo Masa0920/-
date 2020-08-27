@@ -1,4 +1,6 @@
 .navbar {
+   display: flex;
+   justify-content: space-around;
    color: black;
    position: absolute;
    width: 100%;
@@ -6,6 +8,9 @@
    text-align: center;
    background-image: linear-gradient(to bottom, grey, white)
 }
-.navbar h3:hover {
+.home {
+   color: black;
+}
+.home:hover {
    text-decoration: underline;
 }

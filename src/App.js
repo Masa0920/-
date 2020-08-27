@@ -7,11 +7,13 @@ import ECircle from './遷移先/ECircle'
 import Electronic from './遷移先/Electronic'
 import OMath2 from './遷移先/OMath2'
 import Info from './遷移先/Info'
+import Class from './components/Class'
 
 export const App = () => {
   return (
     <BrowserRouter>
       <Navbar/>
+          {/* <Class clas="Bクラス"/> */}
         <Switch>
           <Route exact path="/" render={() => <TopContainer/>} />
           <Route exact path="/OMath1" render={() => <OMath1/> } />
